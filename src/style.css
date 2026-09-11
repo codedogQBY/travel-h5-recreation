@@ -118,6 +118,7 @@ button { font: inherit; }
 .upcoming-card::before, .history-card::before { left: -9px; top: 50%; transform: translateY(-50%); }
 .upcoming-card::after, .history-card::after { right: -9px; top: 50%; transform: translateY(-50%); }
 .upcoming-card::after { display: none; }
+.history-card::after { display: none; }
 .upcoming-photo::after, .history-photo::after { width: 16px; height: 28px; right: -8px; }
 .ticket-body { overflow: hidden; min-height: 0; display: flex; flex-direction: column; justify-content: center; padding-left: clamp(11px, 3.2vw, 15px); padding-right: clamp(7px, 2.5vw, 12px); }
 .ticket-body h3 { font-size: clamp(18px, 4.8vw, 21px); overflow: hidden; text-overflow: ellipsis; }
@@ -137,6 +138,7 @@ button { font: inherit; }
 .history-note { overflow: hidden; }
 .history-note { position: relative; }
 .history-note::after { content: ""; position: absolute; right: -1px; top: 50%; width: 16px; height: 28px; border-radius: 50%; background: var(--surface); transform: translateY(-50%); }
+.history-note::after { display: none; }
 
 @media (max-width: 500px) {
   .banner { height: clamp(150px, 41vw, 178px); }
