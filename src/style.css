@@ -8,7 +8,7 @@
   --muted: #9aa6b4;
   --green: #55b46d;
   --soft-blue: #e6f1f6;
-  --surface: #fbfdfe;
+  --surface: #f3f8fb;
 }
 * { box-sizing: border-box; }
 html, body, #app { min-height: 100%; margin: 0; }
