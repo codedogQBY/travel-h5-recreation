@@ -192,9 +192,9 @@ button { font: inherit; }
 .profile-hero-actions button { width: 34px; height: 34px; padding: 0; border: 0; color: #17344b; background: rgba(255,255,255,.26); border-radius: 50%; cursor: pointer; display: grid; place-items: center; }
 .profile-hero-actions button svg { width: 29px; height: 29px; }
 .profile-clouds { position: relative; height: 0; z-index: 2; pointer-events: none; }
-.profile-clouds::before, .profile-clouds::after { content: ""; position: absolute; width: 82px; height: 68px; top: -58px; background: var(--surface); border-radius: 58% 42% 0 0 / 70% 62% 0 0; pointer-events: none; }
-.profile-clouds::before { left: -34px; box-shadow: 29px 16px 0 10px var(--surface), 62px 7px 0 2px var(--surface); }
-.profile-clouds::after { right: -34px; box-shadow: -29px 16px 0 10px var(--surface), -62px 7px 0 2px var(--surface); }
+.profile-clouds::before, .profile-clouds::after { content: ""; position: absolute; width: 60px; height: 40px; top: -36px; background: var(--surface); border-radius: 58% 42% 0 0 / 70% 62% 0 0; pointer-events: none; }
+.profile-clouds::before { left: -25px; box-shadow: 20px 10px 0 6px var(--surface), 43px 4px 0 1px var(--surface); }
+.profile-clouds::after { right: -25px; box-shadow: -20px 10px 0 6px var(--surface), -43px 4px 0 1px var(--surface); }
 .profile-content { position: relative; z-index: 3; padding: 0 clamp(13px, 4vw, 20px) 22px; }
 .profile-card { background: #fffefa; border-radius: 21px; box-shadow: 0 8px 22px rgba(56,101,124,.09); }
 .profile-account-card { position: relative; margin-top: -19px; overflow: hidden; }
